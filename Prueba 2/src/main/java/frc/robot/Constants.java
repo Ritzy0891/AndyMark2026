@@ -16,4 +16,14 @@ public final class Constants {
   public static class OperatorConstants {
     public static final int kDriverControllerPort = 0;
   }
+
+//Estos son los ID de los sparkmax que van conectados a los motores del chasis
+
+  public static class DriveConstants {
+    public static final int kLeftMotor1Port = 1;
+    public static final int kLeftMotor2Port = 2;
+    public static final int kRightMotor3Port = 3;
+    public static final int kRightMotor4Port = 4;
+    public static final int kCurrentLimit = 40; // limitamos los amperes
+  }
 }
